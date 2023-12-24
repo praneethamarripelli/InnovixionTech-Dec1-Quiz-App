@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.headingcolor{
+ color:#f19628;   
+ font-family:"caveat";
+ font-size:80px;
+ text-shadow:1px 1px white;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image:url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Mathematics-Wallpaper.jpg");
+}
+
+h1 {
+    color: #fff;
+    margin: 20px;
+}
+
+.quiz-container,
+.result-container {
+    background-color: #fff;
+    border-radius: 2%;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 500px;
+    padding:20px;
+    color:#c10d0d;
+    background-color:#fee0a4;
+    
+}
+
+.quiz-header {
+    padding: 10px;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    font-size:20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 1rem 0;
+    font-size:20px;
+    color:black;
+    font-weight:bold;
+
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    background-color: #f19628;
+    border: none;
+    color: #fff;
+    display: block;
+    width: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inherit;
+    padding: 10px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+#prev {
+    background-color: #858585;
+
+}
+
+#submit,
+#result,
+#reload {
+    display: none;
+}
+
+
+.disabled {
+    opacity: 0.6;
+}
+
+.wrong {
+    background-color:#ec576c;
+    padding: 0 20px;
+}
+
+.correct {
+    background-color:#0eea31;
+    padding: 0 20px;
+
+}
